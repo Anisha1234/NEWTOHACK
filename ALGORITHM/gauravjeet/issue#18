@@ -1,0 +1,10 @@
+<?php
+$cars = array("Volvo", "BMW", "Toyota");
+
+echo "Before Sort:";
+print_r($cars);
+
+echo "After Sort:";
+sort($cars);
+print_r($cars);
+?>
