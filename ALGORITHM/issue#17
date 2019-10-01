@@ -1,0 +1,13 @@
+
+
+@author: risavchd24
+"""
+# finding maximum numbers between the array of numbers, '102' in this test case
+
+
+test_array = [22,4,45,72,3,102,25,65,14,20,100,86]
+max = 0
+for i,_ in enumerate(test_array) :
+    if test_array[i] > max :
+        max = test_array[i]
+print("maximum number in the array is {0}".format(max))
